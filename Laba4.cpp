@@ -134,7 +134,7 @@ bool operator>=(const Vector<T>& a, const Vector<T>& b) {
     return a.getLength() >= b.getLength();
 }
 
-int main(int, char**) {
+int main(int) {
     Vector<int> a(5), b(6);
     a[4] = 1;
     b[5] = 2;
